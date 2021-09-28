@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h1 {
+        @apply mt-6 text-7xl text-gray-800 font-bold text-center;
+    }
+    img {
+        @apply border-2 rounded shadow mt-6;
+    }
+    body {
+        @apply antialiased bg-gray-50;
+    }
+    .container {
+        @apply mt-6 mx-auto grid place-content-center;
+    }
+    a {
+        @apply text-blue-400 underline;
+    }
+    p {
+       @apply text-xl text-center font-normal;
+    }
+}

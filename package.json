@@ -1,0 +1,33 @@
+{
+  "name": "website-mockup",
+  "version": "1.0.0",
+  "description": "A small project to help me learn Webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@vue/cli": "^4.5.13",
+    "autoprefixer": "^10.3.4",
+    "babel-loader": "^8.2.2",
+    "path": "^0.12.7",
+    "postcss": "^8.3.6",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "tailwindcss": "^2.2.9",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.17.3",
+    "vue": "^3.2.11"
+  }
+}
